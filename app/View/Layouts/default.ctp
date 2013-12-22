@@ -16,7 +16,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework');
+$cakeDescription = __d('cake_dev', 'Crimson Honors Chemistry Help Desk');
 ?>
 <!DOCTYPE html>
 <html>
@@ -29,7 +29,9 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	<?php
 		echo $this->Html->meta('icon');
 
-		echo $this->Html->css('cake.generic');
+		echo $this->Html->css('cake.modified');
+		echo $this->Html->css('features');
+		echo $this->Html->css('bootstrap.min');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -39,13 +41,31 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 <body>
 	<div id="container">
 		<div id="header">
-			<h1><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
+		</div> 
+
+		<h3 class="welcome">
+			Crimson Honors Chemistry Help Desk
+		</h3>
+			
+		<nav class="navbar">
+	
+			<a class="nav-btn" href='\'>   Home   </a>
+			<!--<a class="nav-btn" href='\users\add'>   Register   </a>
+			<a class="nav-btn" href='\logins'>   Login   </a>--> 
+			<a class="nav-btn" href='\questions'>   Honors   </a> 
+			<a class="nav-btn" href='\helps'>   Help   </a>
+		 
+		</nav>
+	
+		<h3 class="banner">Test your knowledge with a Crimson Quiz</h3>
+		
 		</div>
 		<div id="content">
 
 			<?php echo $this->Session->flash(); ?>
 
 			<?php echo $this->fetch('content'); ?>
+
 		</div>
 		<div id="footer">
 			<?php echo $this->Html->link(

@@ -25,12 +25,10 @@
 		        </div>
 	
 	        	<div id="status-left">
-			        Honors questions are now available.<br>
-			        Click on Honors to go to the first practice quiz. 
+			        Honors questions will be available first for student<br>
+			        Add Honors questions by clicking on Questions. 
 		        </div>
 	        	<div id="back-next">
-	        		<br>Answers to question 7 are:<br>
-	        		120.7m, 322m2 and 11.09m
 			    </div>
 	    
 			</div>

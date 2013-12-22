@@ -36,6 +36,10 @@ $cakeDescription = __d('cake_dev', 'Crimson Honors Chemistry Help Desk');
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
+		
+		echo $this->Html->script('jquery'); // Include jQuery library
+		echo $this->Html->script('ApChem1'); // Include jQuery library
+
 	?>
 </head>
 <body>
@@ -44,20 +48,21 @@ $cakeDescription = __d('cake_dev', 'Crimson Honors Chemistry Help Desk');
 		</div> 
 
 		<h3 class="welcome">
-			Crimson Honors Chemistry Help Desk
+			Crimson Honors Chemistry Admin Site
 		</h3>
 			
 		<nav class="navbar">
 	
 			<a class="nav-btn" href='\'>   Home   </a>
-			<!--<a class="nav-btn" href='\users\add'>   Register   </a>
-			<a class="nav-btn" href='\logins'>   Login   </a>--> 
-			<a class="nav-btn" href='\questions'>   Honors   </a> 
+			<a class="nav-btn" href='\types'>   Question Types   </a>
+			<a class="nav-btn" href='\questions'>   Questions   </a>
+			<a class="nav-btn" href='\users'>   Users   </a>
+ 			<!-- <a class="nav-btn" href='\tests\start\1'>   Honors   </a> -->  
 			<a class="nav-btn" href='\helps'>   Help   </a>
 		 
 		</nav>
 	
-		<h3 class="banner">Test your knowledge with a Crimson Quiz</h3>
+		<h3 class="banner">Questions and Answers are being created to help Chemistry students</h3>
 		
 		</div>
 		<div id="content">

@@ -27,6 +27,21 @@ class QuestionsController extends AppController {
 	}
 
 /**
+ * start method
+ *
+ * @throws NotFoundException
+ * @param string $id
+ * @return void
+ */
+		public function start($id = null) {
+		if (!$this->Question->exists($id)) {
+			throw new NotFoundException(__('Invalid test'));
+		}
+		$options = array('conditions' => array('Question.' . $this->Question->primaryKey => $id));
+		$this->set('question', $this->Question->find('first', $options));
+	}
+
+/**
  * test method
  *
  * @throws NotFoundException

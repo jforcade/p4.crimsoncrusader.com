@@ -6,7 +6,7 @@
 
 			<div id='questions'>
 				<div class='instructions'>
-					You're going to see your questions in this space
+					Student are going to see questions in this space
 				</div>
 			</div>
 			
@@ -18,11 +18,11 @@
 			</div>
 
 			<div id="back-next">
-				<br>Click on Honors to go to the first practice quiz. 
+				<br>Honors practice quiz will be up soon. 
 			</div>
 
 			<div id="status-right">
-				AP questions to be added soon.
+				AP questions to be added later.
 			</div>
 	
 		</div>

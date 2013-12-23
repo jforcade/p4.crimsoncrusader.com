@@ -43,6 +43,14 @@ The answers to choose from consists of radio buttons and and labels.
 javascript - Sample question that uses javascript to bind the 
              labels to the radio buttons.
 			 
+the list of features- P4 allows the user to:
+
+			* register ( for future user )
+	        * view add edit and delete the list of questions
+			* view add edit and delete the list of users
+			* sample one of the questions 
+			* view the help screen which explains the format for questions
+			 
 I need to learn a lot more about Cakephp in order to get all the features 
 I wanted into the project.  Because of time constraints and scarce resources
 once you get into very specific areas of implementation I may not add much more to

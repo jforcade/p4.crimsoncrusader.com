@@ -54,10 +54,10 @@ $cakeDescription = __d('cake_dev', 'Crimson Honors Chemistry Help Desk');
 		<nav class="navbar">
 	
 			<a class="nav-btn" href='\'>   Home   </a>
-			<a class="nav-btn" href='\types'>   Question Types   </a>
+			<a class="nav-btn" href='\users\add'>   Register   </a>
 			<a class="nav-btn" href='\questions'>   Questions   </a>
 			<a class="nav-btn" href='\users'>   Users   </a>
- 			<!-- <a class="nav-btn" href='\tests\start\1'>   Honors   </a> -->  
+ 			<a class="nav-btn" href='\questions\sample\1'>   Sample   </a> 
 			<a class="nav-btn" href='\helps'>   Help   </a>
 		 
 		</nav>

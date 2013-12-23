@@ -1,7 +1,6 @@
-<div class="tests start">
+<div class="questions start">
 	<?php echo $this->Html->script('jquery', FALSE); ?>
-	<!-- <?php echo $this->Html->script('ApChem1', FALSE); ?>
-	<?php echo $this->Html->script("https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js", FALSE); ?> -->
+	<?php echo $this->Html->script("https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js", FALSE); ?> 
 	
 	<div class="quizpage"> 
 
@@ -12,12 +11,11 @@
 			<div id='questions'>
 			
 				<h3 id="qhh" class="Qh2">Question 1</h3>
-				<div id="qhd">
-				<!-- Which branch of chemistry would you classify a person if they were to study the chemical composition of the venom of a black widow spider? -->
-				
-					<?php $this->$question->description ?>;
+				<div id="qhd">Which branch of chemistry would you classify a person if they were to study the chemical composition of the venom of a black widow spider?
 				</div>
-			
+				<!-- <?php $this->$question->description ?>;
+					 <?php echo h($question['Question']['type']); ?> -->
+				
 				<!-- Buttons -->
 					   
 				<div>

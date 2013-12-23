@@ -48,7 +48,7 @@ class QuestionsController extends AppController {
  * @param string $id
  * @return void
  */
-	public function test($id = null) {
+	public function sample($id = null) {
 		if (!$this->Question->exists($id)) {
 			throw new NotFoundException(__('Invalid question'));
 		}

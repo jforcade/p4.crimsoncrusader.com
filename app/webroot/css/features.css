@@ -34,11 +34,11 @@ Class and Id properties
 
 .navbar {
 	margin-top:10px;
-	margin-left:15%;
-	margin-right:15%;
+	margin-left:10%;
+	margin-right:10%;
 	padding:10px;
-	width:70%;
-    min-width: 600px;
+	width:80%;
+    min-width: 800px;
 	height:30px;
 	border:1px solid black;
 	background-color:#CCFFCC;
